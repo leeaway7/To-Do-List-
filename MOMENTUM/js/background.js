@@ -7,7 +7,3 @@ document.body.style.backgroundPosition = "top";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "cover";
 document.body.style.backgroundAttachment = "fixed";
-
-bgImage.src = `img/${chosenImage}`;
-
-document.body.appendChild(bgImage);
