@@ -1,0 +1,127 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 140px;
+}
+
+#dataPrint{
+  font-size: 2.5vh;
+  letter-spacing: .5vh;
+  color: #f2f2f2;
+}
+
+#timePrint{
+  font-size: 5vh;
+  letter-spacing: 1vh;
+  color: #f2f2f2;
+}
+
+form {
+  margin: 0 auto 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#login-form input {
+  outline: 0;
+  background: #f2f2f2;
+  border: 0;
+  padding: 15px;
+}
+
+#box {
+  width: 316px;
+  margin-right: 8px;
+}
+
+#greeting {
+  color: #f2f2f2;
+}
+
+#submit {
+  cursor: pointer;
+  width: 70px;
+}
+
+#todo-form input {
+  width: 400px;
+  outline: 0;
+  background: #f2f2f2;
+  border: 0;
+  padding: 15px;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  list-style: none;
+
+  width: 392px;
+}
+
+#todo-list li {
+  align-items: center;
+  margin: 6px auto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#todo-list button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+#weather {
+  position: absolute;
+  top: 30px;
+  right: 12px;
+  flex-grow: .9;
+  color: #f2f2f2;
+  font-size: 20px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 8px;
+  color: white;
+  width: 100%;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#qutoe span {
+  text-align: center;
+}
+#quote span:first-child {
+  font-size: 1.2vw;
+  margin-bottom: 0.5vw;
+}
+
+#quote span:last-child {
+  opacity: 0.5;
+}
+
